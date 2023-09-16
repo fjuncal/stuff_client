@@ -12,9 +12,5 @@ class Logged implements AuthState {
   Logged(this.token);
 }
 
-class Unlogged implements AuthState {
-  final Tokenization token;
-
-  Unlogged(this.token);
-}
+class Unlogged implements AuthState {}
 

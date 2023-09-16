@@ -18,7 +18,7 @@ final loginWithEmailAction = Atom<EmailCredentialDTO?>(
   key: 'loginWithEmailAction'
 );
 
-final logoutACtion = Atom.action(
+final logoutAction = Atom.action(
   key: 'logoutAction',
 );
 

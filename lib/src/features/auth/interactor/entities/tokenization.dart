@@ -4,6 +4,6 @@ class Tokenization{
 
   const Tokenization({
     required this.idToken, 
-    required this.refreshToken,
+    this.refreshToken,
   });
 }
